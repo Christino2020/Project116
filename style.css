@@ -1,0 +1,17 @@
+body{
+    color:yellow;
+    font-family:'Monte Carlo' ;
+    
+}
+h1{
+    font-size: xx-large;
+}
+canvas{
+    animation-name:example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from {box-shadow: 3px 3px 50px blue;}
+    to {box-shadow: 3px 3px 50px black;}
+}
